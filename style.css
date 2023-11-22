@@ -1,0 +1,467 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: none;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+.Home{
+    background-image:url(/hero-bg.jpg);
+    background-repeat: no-repeat;
+    animation: left;
+    padding: 50px;
+    /* height: 80vh; */
+}
+.Home2{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 10px;
+}
+.Home2 h5{
+    font-size: 40px;
+    font-style: italic;
+    color: white;
+    font-weight: 100;
+}
+.Home2 ul{
+    list-style: none;
+    display: flex;
+    gap: 70px;
+    color: white;
+    font-synthesis: style;
+    
+}
+
+ul li{
+        &:hover{
+        color: orange;
+        transition: 2s;
+        cursor: pointer;
+    }
+}
+.Home2 button{
+    padding: 15px;
+    width: 200px;
+    background-color: orange;
+    color: white;
+    border-radius: 25px;
+    border: none;
+    cursor: pointer;
+    border: 2px solid orange; 
+    &:hover{
+        background-color: transparent;
+        color: orange;
+        transition: 2s;
+    }
+}
+.Home2 button{
+       animation: mubarak 2s infinite;
+ }
+
+@keyframes mk {
+    0%, 25%{
+        background-color: orange;
+
+    }
+    50%, 100%{
+        background-color:black ;
+        
+    }
+
+}
+.Home3{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex;
+    /* padding-top: 100px; */
+}
+.Home3 h1{
+    font-size: 70px;
+    font-style: italic;
+    color: white;
+    font-weight: 100;
+    line-height: 140px;
+}
+.Home p{
+    width: 50%;
+    font-size: 20px;
+    color: white;
+    /* line-height: 30px; */
+}
+.Home3 button{
+   display: flex;
+   justify-content: center;
+   gap: 10px;
+   padding: 15px;
+   width: 240px;
+   background-color: orange;
+   color: white;
+   border-radius: 25px;
+   font-size: 17px;
+}
+.Online{
+    padding-top: 80px;
+ 
+}
+.Online button{
+       animation: mubarak 2s infinite;
+ }
+
+@keyframes mubarak {
+    0%, 25%{
+        background-color: orange;
+
+    }
+    50%, 100%{
+        background-color:black ;
+    }
+
+}
+.All{
+    display: flex;
+    flex-direction: column;
+    padding: 100px;
+}
+.all2{
+    display: flex;
+    justify-content: center;
+    font-size: 40px;
+    padding: 10px;
+}
+
+.Read{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    gap: 80px;
+}
+.Read2 h1{
+    font-size: 40px;
+    font-style: italic;
+    color: white;
+    line-height: 90px;
+}
+.Read2 p{
+    color: white;
+    font-size: 20px;
+    width: 65%;
+    line-height: 30px;
+}
+.Read2 button{
+    padding: 17px;
+    width: 20%;
+    border-radius: 30px;
+    background-color: orange;
+    color: white;
+    border: none;
+     &:hover{
+        background-color: transparent;
+        color: orange;
+        transition: 2s;
+    }
+}
+.Read3{
+    padding-top: 60px;
+}
+.Read2 button{
+       animation: mubarak 2s infinite;
+ }
+
+@keyframes mubarak {
+    0%, 25%{
+        background-color: orange;
+
+    }
+    50%, 100%{
+        background-color:black ;
+    }
+
+}  
+.TABLE{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20%;
+}
+.TABLE2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    padding: 40px;
+
+}
+.TABLE2 input{ 
+    width: 300%;
+    padding: 15px;
+    border-radius: 10px;
+    border: 1px solid;
+}
+.TABLE2 select{ 
+    width: 315%;
+    padding: 15px;
+    border-radius: 10px;
+    border: 1px solid;
+}
+.TABLE2 H1{
+    font-style: italic;
+    font-size: 30px;
+    width: 200px;
+}
+.TAB img{
+    height: 40vh;
+    width: 120%;
+    padding-left: 20%;
+    padding-top:  20%;
+}
+.lastly{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    padding: 20px;
+}
+.lastly1{
+    line-height: 30px;
+    color: white;
+}
+.lastly1 h5{
+    font-size: 20px;
+    font-style: italic;
+}
+.lastly1 p{
+    font-size: 15px;
+    width: 60%;
+}
+.lastly2{
+    line-height: 20px;
+    color: white;
+}
+.lastly2 h5{
+    font-size: 20px;
+    font-style: italic;
+}
+.lastly2 p{
+    font-size: 15px;
+    width: 40%;
+   
+}
+.lastly3{
+    line-height: 30px;
+    color: white;
+}
+.lastly3 h5{
+    font-size: 15px;
+    font-style: italic;
+}
+.lastly3 p{
+    font-size: 15px;
+}
+.mall{
+    display: flex;
+    gap: 70px;
+    align-items: center;
+    margin-top: 60px;
+
+}
+.cart img, .cart2 img, .cart3 img{
+    width: 20vw;
+}
+.cart, .cart2, .cart3{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    text-align: center;
+    padding: 25px;
+    box-shadow: 0 0 35px rgb(187, 180, 180);
+}
+.cart button, .cart2 button, .cart3 button{
+    width: 100%;
+    background-color: black;
+    color: white;
+    border-width: 0px;
+    padding: 10px 0;
+    animation: mubarak 1s infinite;
+
+}
+/* .everything{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+} */
+@keyframes mubarak {
+    0%, 25%{
+        background-color: orange;
+
+    }
+    50%, 100%{
+        background-color:black ;
+    }
+
+}
+
+
+
+
+
+
+   @media screen and (max-width: 950px) {
+    .Home{
+      background-image:url(/hero-bg.jpg);
+      background-repeat: no-repeat;
+      animation: left;
+      background-size: 100% 100%  ;
+    }
+    .Home2{
+       display: none;
+    }
+    .Home3{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+
+    }
+    .Home3 h1{
+        font-size: 35px;
+        font-style: italic;
+        color: white;
+    }
+   .Home p{
+        width: 70%;
+        font-size: 20px;
+        color: white;
+        padding-right: 50px;
+    }  
+    .Online{
+        padding-top: 20px;
+        padding-right: 120px;
+     
+    }
+    .online{
+        padding: 20px;
+        width: 20px;
+    }
+    .Home3 button{
+        font-size: 15px;
+        padding: 1px;
+        width: 8pc;
+    }
+    .All{
+        display: flex;
+        flex-direction: column;
+    
+        
+    }
+    .cart img, .cart2 img, .cart3 img{
+        width: 50vw;
+    }  
+    .mall{
+        display: flex;
+        flex-direction: column;
+        gap: 50px;
+        margin-top: 70px;
+        
+    }
+    .Read{
+        display: flex;
+        flex-direction: column;
+        background-color: black;
+    }
+    .Read1 img{
+        width: 70%;
+    }
+    .Read2{
+        display: flex;
+        flex-direction: column;
+        align-self: center;
+        justify-content: center;
+        padding-left: 50px;
+    }
+    .Read2 button{
+        padding: 15px;
+        width: 40%;
+    }
+    .Read2 p{
+        color: white;
+        font-size: 15px;
+        width: 55%;
+        line-height: 20px;
+    }
+    .Read2 h1{
+        font-size: 35px;
+        font-style: italic;
+        color: white;
+        line-height: 70px;
+    }
+    .TABLE{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .TABLE2 input{ 
+        width: 150%;
+        padding: 15px;
+        border-radius: 10px;
+        border: 1px solid;
+    }
+    .TABLE2 select{ 
+        width: 170%;
+        padding: 15px;
+        border-radius: 10px;
+        border: 1px solid;
+    }
+    .TAB img{
+        height: 30vh;
+        width: 60%;
+        padding-bottom: 50px;
+        padding-right: 39pc;
+    }
+    .lastly{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-color: black;
+        gap: 40px;
+    }
+    .lastly1{
+        line-height: 20px;
+        gap: 10px;
+    }
+    .lastly1 h5{
+        font-size: 20px;
+        font-style: italic;
+        line-height: 50px;
+    }
+    .lastly2 h5{
+        font-size: 20px;
+        font-style: italic;
+        line-height: 50px;
+    }
+    .lastly3{
+        line-height: 30px;
+        color: white;
+        padding-right: 140px;
+    }
+    .lastly3 h5{
+        font-size: 15px;
+        font-style: italic;
+    }
+
+
+
+     
+    
+}
